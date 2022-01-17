@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.card {
+  box-shadow: 10px 10px 20px rgb(0, 0, 0) !important;
+  -webkit-box-shadow: 10px 10px 20px rgb(0, 0, 0) !important;
+  border: none;
+
+}
+
+.wrapper {
+    background: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .button:hover {
+    background-color: white;
+    color: #2b5768;
+  }
